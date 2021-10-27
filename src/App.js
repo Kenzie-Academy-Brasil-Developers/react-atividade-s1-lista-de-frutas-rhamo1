@@ -20,9 +20,6 @@ function App() {
     setPrice(filtered.reduce((a, b) => a + b.price, 0));
   };
 
-  // const totalPrice = fruits.reduce((a, b) => a + b.price, 0);
-  // console.log(totalPrice);
-
   return (
     <div className="App">
       <header className="App-header">
